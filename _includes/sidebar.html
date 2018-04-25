@@ -53,6 +53,27 @@
            </li>
            {% endif %}
 
+           {% if site.gitlab %}
+           <li class="gitlab">
+               <i class="fab fa-gitlab"></i>
+               <a href="https://gitlab.com/{{site.gitlab}}" target="_blank">{{site.gitlab}}</a>
+           </li>
+           {% endif %}
+
+           {% if site.medium %}
+           <li class="medium">
+               <i class="fab fa-medium"></i>
+               <a href="https://medium.com/{{site.medium}}" target="_blank">{{site.medium}}</a>
+           </li>
+           {% endif %}
+
+           {% if site.wikipedia-en %}
+           <li class="wikipedia-en">
+               <i class="fab fa-wikipedia-w"></i>
+               <a href="https://en.wikipedia.org/wiki/User:{{site.wikipedia-en}}" target="_blank">User:{{site.wikipedia-en}}</a>
+           </li>
+           {% endif %}
+
            {% if site.twitter %}
            <li class="twitter">
                <i class="fab fa-twitter"></i>
