@@ -4,5 +4,9 @@
 
 @charset "utf-8";
 
+@import "fonts";
 @import "skins/{{ site.theme_skin | default: 'blue' }}"; // skin
 @import "default"; // main partials
+{% if site.theme_skin == "mdc" %}
+    @import "skins/mdc-customizations";
+{% endif %}

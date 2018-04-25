@@ -1,0 +1,43 @@
+
+/* More customization */
+
+/*
+ * Use a font that looks more apppealing than the theme's default
+ */
+body {
+    font-family: 'Lora', serif;
+}
+
+/*
+ * Fix tail of letters like 'g' getting hidden by below lines
+ */
+.main-wrapper {
+    .job-title, .degree {
+        margin-bottom: inherit;
+    }
+}
+
+@media (min-width: 992px) {
+    .skillset .level-title {
+        margin-bottom: inherit;
+    }
+}
+
+/*
+ * Increase the opacity of the language description a little for
+ * better readability
+ */
+.sidebar-wrapper .languages-container .lang-desc {
+    color: rgba(256, 256, 256, 0.7);
+}
+
+/*
+ * Fix the time overlapping the degree for a particular screen width
+ */
+@media (max-width: 940px) {
+    .main-wrapper .time {
+        position: static;
+        display: block;
+        margin-top: 5px;
+    }
+}

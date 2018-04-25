@@ -1,0 +1,33 @@
+/*
+ * The following values were found by inspecting the Material Design Components
+ * Web demo for theming, using the Eyedropper tool (of Firefox).
+ *
+ * The theme was the default one.
+ */
+
+/* The backgound of the header */
+$theme-color: #6200ee;
+
+/*
+ * The text color of 'Primary' in the 'Text on user-defined light background'
+ */
+$text-color: #3a3a3a;
+
+/*
+ * The text color of 'Secondary' in the 'Text on user-defined light background'
+ */
+$text-color-secondary: #656565;
+
+/*
+ * The color of the heart in the  'Text on user-defined light background'
+ */
+$text-grey: #898989;
+
+/*
+ * Defaults from 'theme-default.less'
+ */
+$divider: #e8e8e8;
+$lighter-grey: #ccc;
+$darker-grey: #666;
+$smoky-white: #f5f5f5;
+$heart: #fb866a;
