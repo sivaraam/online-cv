@@ -1,0 +1,78 @@
+/* styles-7.css */
+
+/*
+ * The following values were found by inspecting the Material Design Components
+ * Web demo for theming, using the Eyedropper tool (of Firefox).
+ *
+ * The theme was the default one.
+ */
+
+/* The backgound of the header */
+@theme-color: #6200ee;
+
+/*
+ * The text color of 'Primary' in the 'Text on user-defined light background'
+ */
+@text-color: #3a3a3a;
+
+/*
+ * The text color of 'Secondary' in the 'Text on user-defined light background'
+ */
+@text-color-secondary: #656565;
+
+/*
+ * The color of the heart in the  'Text on user-defined light background'
+ */
+@text-grey: #898989;
+
+/*
+ * Defaults from 'theme-default.less'
+ */
+@divider: #e8e8e8;
+@lighter-grey: #ccc;
+@darker-grey: #666;
+@smoky-white: #f5f5f5;
+@heart: #fb866a;
+
+/* More customization */
+
+/*
+ * Use a font that looks more apppealing than the theme's default
+ */
+body {
+    font-family: 'Lora', serif;
+}
+
+/*
+ * Fix tail of letters like 'g' getting hidden by below lines
+ */
+.main-wrapper {
+    .job-title, .degree {
+        margin-bottom: inherit;
+    }
+}
+
+@media (min-width: 992px) {
+    .skillset .level-title {
+        margin-bottom: inherit;
+    }
+}
+
+/*
+ * Increase the opacity of the language description a little for
+ * better readability
+ */
+.sidebar-wrapper .languages-container .lang-desc {
+    color: rgba(256, 256, 256, 0.7);
+}
+
+/*
+ * Fix the time overlapping the degree for a particular screen width
+ */
+@media (max-width: 940px) {
+    .main-wrapper .time {
+        position: static;
+        display: block;
+        margin-top: 5px;
+    }
+}
