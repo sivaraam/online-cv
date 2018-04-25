@@ -1,9 +1,20 @@
 - interest:
-  item: Climbing
+  item: "Contributing to open source projects"
+  link: https://github.com/sivaraam/
+- interest:
+  item: "Volunteer for the Wikimedia Foundation"
+  link: https://phabricator.wikimedia.org/p/Kaartic/
+- interest:
+  item: "<a href=\"https://en.wikipedia.org/wiki/Special:Contributions/Kaartic\">
+  Editing Wikipedia</a> <span style=\"color: rgba(256, 256, 256, 0.7);\">
+  (greatly improves researching skills!) </span>"
   link:
 - interest:
-  item: Snowboarding
+  item: "Learn new things <span style=\"color: rgba(256, 256, 256, 0.7);\">
+  (the autodidact's way) </span>"
   link:
 - interest:
-  item: Cooking
+  item: "Reading books <span style=\"color: rgba(256, 256, 256, 0.7);\">
+  (<a href=\"https://www.amazon.in/hz/wishlist/ls/1NXBPDNCVJTUZ\" target=\"_blank\">Wishlist</a>)
+  </span>"
   link:

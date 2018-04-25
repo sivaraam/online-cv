@@ -1,37 +1,39 @@
 # Site Settings
-title: My Resume
-url: 'http://webjeda.com'
+title: Kaartic's Resume
+url: 'https://sivaraam.github.io/'
 baseurl: '/online-cv' #change it according to your repository name
-about: True # set to False or comment line if you want to remove the "How to use?" in the sidebar
+about: False # set to False or comment line if you want to remove the "How to use?" in the sidebar
 
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
-theme_skin: # blue turquoise green berry orange ceramic mdc
+theme_skin: mdc # blue turquoise green berry orange ceramic mdc
 
 # Profile information
-name: Alan Doe
-tagline: Full Stack Developer
-pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
-summary: 'Summarise your career here lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-You can <a href="#" target="_blank">download this free resume/CV template here</a>. Aenean
-commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient
-montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.'
+name: Kaartic Sivaraam
+# tagline: Full Stack Developer
+pic: Lotus_flower.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+summary: 'I’m a person seeking to work with awesome people. When it comes to learning,
+I consider myself a <em>semi-autodidact</em>. I have a passion towards design and love to
+make simple and intuitive interfaces. I’m also passionate about programming and love
+to craft eloquent programs. I love to explore the behind the scenes working of things.'
 
 # Sidebar links
-email: hello@webjeda.com
-phone: 012 345 6789
-website: blog.webjeda.com #do not add http://
-linkedin: alandoe
-github: sharu725
-twitter: '@webjeda'
-wikipedia-en: Jimmy Wales # without the 'User:' prefix
+email: kaartic.sivaraam@gmail.com
+phone: +91 875 427 5908
+# website: blog.webjeda.com #do not add http://
+# linkedin: alandoe
+github: sivaraam
+gitlab: sivaraam
+medium: '@sivaraam'
+wikipedia-en: Kaartic # without the 'User:' prefix
+# twitter: '@webjeda'
 
 #Update all the sections by editing the files inside _data folder.
 
 # uncomment the next line, if you want the education section displayed in main instead of the sidebar
-#education_in_main: True
+education_in_main: True
 
 # Tracker
-analytics: UA-83979019-1
+# analytics: UA-83979019-1
 
 # Sass/SCSS
 sass:
