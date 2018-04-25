@@ -91,19 +91,17 @@ p {
   border-radius: 100%;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 }
-.sidebar-wrapper .contact-list .fa {
+.sidebar-wrapper .contact-list *[class^="fa-"],
+.sidebar-wrapper .contact-list *[class*=" fa-"] {
   margin-right: 5px;
   font-size: 18px;
-  vertical-align: middle;
+  vertical-align: text-bottom;
 }
 .sidebar-wrapper .contact-list li {
   margin-bottom: 15px;
 }
 .sidebar-wrapper .contact-list li:last-child {
   margin-bottom: 0;
-}
-.sidebar-wrapper .contact-list .email .fa {
-  font-size: 14px;
 }
 .sidebar-wrapper .container-block {
   padding: 30px;
@@ -172,22 +170,13 @@ p {
   margin-top: 0;
   margin-bottom: 20px;
 }
-.main-wrapper .section-title .fa {
+.main-wrapper .section-title *[class^="fa-"],
+.main-wrapper .section-title *[class*=" fa-"] {
   width: 30px;
   height: 30px;
   margin-right: 8px;
   display: inline-block;
-  color: #fff;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-  border-radius: 50%;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
-  background: #f47c03;
-  text-align: center;
+  vertical-align: text-bottom;
   padding-top: 8px;
   font-size: 16px;
   position: relative;
