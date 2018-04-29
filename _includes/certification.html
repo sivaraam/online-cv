@@ -1,0 +1,46 @@
+{% if site.data.certifications %}
+    {% if site.certification_in_main %}
+
+        <section class="section certifications-section">
+        <h2 class="section-title"><i class="fas fa-certificate"></i>Certification</h2>
+        {% for certification in site.data.certifications %}
+          <div class="item">
+
+            <div class="meta">
+
+              <div class="upper-row">
+                <h3 class="certification-title">{{ certification.title }}</h3>
+                {% if certification.time %}
+                <div class="time">
+                  <p>{{ certification.time }}</p>
+                </div><!--//time-->
+                {% endif %}
+              </div><!--//upper-row-->
+
+              <div class="certification-authority">{{ certification.authority }}</div>
+            </div><!--//meta-->
+
+            {% if certification.details %}
+            <div class="details">
+              <p>{{ certification.details }}</p>
+            </div><!--//details-->
+            {% endif %}
+          </div><!--//item-->
+        {% endfor %}
+
+        </section><!--//section-->
+    {% else %}
+        <div class="certification-container container-block">
+
+          <h2 class="container-block-title">certification</h2>
+
+            {% for certification in site.data.certifications %}
+              <div class="item">
+                <h4 class="certification-title">{{ certification.title }}</h4>
+                <h5 class="meta">{{ certification.authority }}</h5>
+                <div class="time">{{ certification.time }}</div>
+              </div><!--//item-->
+            {% endfor %}
+        </div><!--//certification-container-->
+    {% endif %}
+{% endif %}

@@ -46,6 +46,8 @@
            </li>
            {% endif %}
 
+           <!-- TODO: Introduce new 'Profiles' section -->
+
            {% if site.linkedin %}
            <li class="linkedin">
                <i class="fab fa-linkedin"></i>
@@ -94,6 +96,12 @@
   {% if site.education_in_main == null or site.education_in_main == false %}
     {% include education.html %}
   {% endif %}
+
+
+  {% if site.certification_in_main == null or site.certification_in_main == false %}
+    {% include certification.html %}
+  {% endif %}
+
   {% include language.html %}
   {% include interests.html %}
   {% if site.about %}
