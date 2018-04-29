@@ -1,8 +1,9 @@
 projects:
-  # - project:
-  #   title: Customized Wikipedia Offline Package Generator
-  #   link: https://github.com/sivaraam/cwopg
-  #   tagline: "A project to allow users to download custom packages of Wikipedia articles."
+  - project:
+    title: Customized Wikipedia Offline Package Generator
+    link: https://github.com/sivaraam/cwopg
+    tagline: "An ongoing Node.js application that would allow users to download
+    custom offline packages of Wikipedia articles."
   - project:
     title: "Seminar Hall booking"
     link: https://github.com/sivaraam/Seminar
