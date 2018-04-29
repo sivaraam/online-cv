@@ -8,6 +8,9 @@
   name: Javascript
   level: 40%
 - skill:
+  name: Node.js
+  level: 45%
+- skill:
   name: C
   level: 80%
 - skill:
