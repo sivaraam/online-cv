@@ -27,10 +27,12 @@ medium: '@sivaraam'
 wikipedia-en: Kaartic # without the 'User:' prefix
 # twitter: '@webjeda'
 
-#Update all the sections by editing the files inside _data folder.
+# Update all the sections by editing the files inside _data folder.
 
-# uncomment the next line, if you want the education section displayed in main instead of the sidebar
+# uncomment the next lines, if you want the education/cetification sections displayed
+# in main instead of the sidebar
 education_in_main: True
+# certification_in_main: True
 
 # Tracker
 # analytics: UA-83979019-1

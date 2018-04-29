@@ -32,12 +32,21 @@
            </li>
            {% endif %}
 
+           {% if site.location %}
+           <li class="phone">
+               <i class="fas fa-map-marker-alt"></i>
+               {{site.location}}
+           </li>
+           {% endif %}
+
            {% if site.website %}
            <li class="website">
                <i class="fas fa-globe"></i>
                <a href="http://{{site.website}}" target="_blank">{{site.website}}</a>
            </li>
            {% endif %}
+
+           <!-- TODO: Introduce new 'Profiles' section -->
 
            {% if site.linkedin %}
            <li class="linkedin">
@@ -87,6 +96,12 @@
   {% if site.education_in_main == null or site.education_in_main == false %}
     {% include education.html %}
   {% endif %}
+
+
+  {% if site.certification_in_main == null or site.certification_in_main == false %}
+    {% include certification.html %}
+  {% endif %}
+
   {% include language.html %}
   {% include interests.html %}
   {% if site.about %}
