@@ -1,16 +1,4 @@
 - certification:
-  title: Microsoft Technology Associate
+  title: 'Microsoft Technology Associate: Networking Fundamentals'
   authority: Microsoft
-  time: Indefinite
-  details: "Describe your certification if you think you would like to. lorem ipsum dolor
-  elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
-  magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
-  pellentesque eu, pretium quis, sem."
-- certification:
-  title: CCNA Cloud
-  authority: Cisco
-  time: 2011 - 2014
-  details: "Describe your certification if you think you would like to.
-  Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
-  magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
-  pellentesque eu, pretium quis, sem."
+  time: 2016
