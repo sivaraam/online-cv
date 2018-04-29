@@ -11,6 +11,10 @@ layout: default
 
 {% include experience.html %}
 
+{% if site.certification_in_main %}
+    {% include certification.html %}
+{% endif %}
+
 {% include projects.html %}
 
 {% include publications.html %}
