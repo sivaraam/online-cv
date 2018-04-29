@@ -32,6 +32,13 @@
            </li>
            {% endif %}
 
+           {% if site.location %}
+           <li class="phone">
+               <i class="fas fa-map-marker-alt"></i>
+               {{site.location}}
+           </li>
+           {% endif %}
+
            {% if site.website %}
            <li class="website">
                <i class="fas fa-globe"></i>
