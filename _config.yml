@@ -11,6 +11,7 @@ theme_skin: # blue turquoise green berry orange ceramic mdc
 name: Alan Doe
 tagline: Full Stack Developer
 pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+pic-info: This is a profile picture # An helpful information about the image
 summary: 'Summarise your career here lorem ipsum dolor sit amet, consectetuer adipiscing elit.
 You can <a href="#" target="_blank">download this free resume/CV template here</a>. Aenean
 commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient
