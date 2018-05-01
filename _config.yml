@@ -27,7 +27,7 @@ github: sharu725
 twitter: '@webjeda'
 wikipedia-en: Jimmy Wales # without the 'User:' prefix
 
-#Update all the sections by editing the files inside _data folder.
+# Update all the sections by editing the files inside _data folder.
 
 # uncomment the next lines, if you want the education/cetification sections displayed
 # in main instead of the sidebar
