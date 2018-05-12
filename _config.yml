@@ -18,7 +18,21 @@ commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis d
 montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.'
 
 # Sidebar links
-email: hello@webjeda.com
+# email: hello@webjeda.com
+
+# Insert the email clobbered using (the power of) HTML entities:
+#
+#   1. Either do it manually: https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references
+#
+#      or
+#
+#   2. Use the power of Markdown to create it: https://daringfireball.net/projects/markdown/syntax#autolink
+#
+# The example was created using the power of Markdown.
+#
+# Note: Either specify `email` or `clobbered_email`. If both are specified `clobbered_email` is used.
+#
+clobbered_email: "&#104;&#x65;&#108;&#108;&#x6F;&#64;&#x77;&#x65;&#98;&#x6A;&#101;&#x64;&#97;&#x2E;&#x63;&#111;&#x6D;"
 phone: 012 345 6789
 location: Earth
 website: blog.webjeda.com #do not add http://

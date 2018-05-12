@@ -22,10 +22,14 @@
    <div class="contact-container container-block">
        <ul class="list-unstyled contact-list">
 
-          {% if site.email %}
+          {% if site.email or site.clobbered_email %}
            <li class="email">
                <i class="fas fa-envelope"></i>
-               <a href="mailto: {{site.email}}">{{site.email}}</a>
+               {% if site.clobbered_email %}
+               <a href="&#x6D;&#97;&#105;l&#x74;&#111;:{{site.clobbered_email}}">{{site.clobbered_email}}</a>
+               {% elsif site.email %}
+               <a href="mailto:{{site.email}}">{{site.email}}</a>
+               {% endif %}
            </li>
            {% endif %}
 
