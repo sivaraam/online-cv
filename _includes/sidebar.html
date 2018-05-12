@@ -26,9 +26,13 @@
            <li class="email">
                <i class="fas fa-envelope"></i>
                {% if site.clobbered_email %}
-               <a href="&#x6D;&#97;&#105;l&#x74;&#111;:{{site.clobbered_email}}">{{site.clobbered_email}}</a>
+                  {% if site.clobbered_name %}
+                  <a href="&#x6D;&#97;&#105;l&#x74;&#111;:{{site.clobbered_name}}&#32;&#x3C;{{site.clobbered_email}}&#62;">{{site.clobbered_email}}</a>
+                  {% else %}
+                  <a href="&#x6D;&#97;&#105;l&#x74;&#111;:{{site.clobbered_email}}">{{site.clobbered_email}}</a>
+                  {% endif %}
                {% elsif site.email %}
-               <a href="mailto:{{site.email}}">{{site.email}}</a>
+               <a href="mailto:{{site.name}} {{site.email}}">{{site.email}}</a>
                {% endif %}
            </li>
            {% endif %}
