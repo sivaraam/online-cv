@@ -33,6 +33,12 @@ montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu
 # Note: Either specify `email` or `clobbered_email`. If both are specified `clobbered_email` is used.
 #
 clobbered_email: "&#104;&#x65;&#108;&#108;&#x6F;&#64;&#x77;&#x65;&#98;&#x6A;&#101;&#x64;&#97;&#x2E;&#x63;&#111;&#x6D;"
+
+# You could also specify a clobbered version of your name to be used in the link to email you
+#
+# If unspecified only the clobbered email will be used in the link
+clobbered_name: "&#65;&#x6C;&#97;&#x6E;&#32&#68;&#x6F;&#101;"
+
 phone: 012 345 6789
 location: Earth
 website: blog.webjeda.com #do not add http://
