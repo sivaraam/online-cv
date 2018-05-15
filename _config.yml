@@ -18,7 +18,27 @@ make simple and intuitive interfaces. I’m also passionate about programming an
 to craft eloquent programs. I love to explore the behind the scenes working of things.'
 
 # Sidebar links
-email: kaartic.sivaraam@gmail.com
+# email: kaartic.sivaraam@gmail.com
+
+# Insert the email clobbered using (the power of) HTML entities:
+#
+#   1. Either do it manually: https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references
+#
+#      or
+#
+#   2. Use the power of Markdown to create it: https://daringfireball.net/projects/markdown/syntax#autolink
+#
+# The example was created using the power of Markdown.
+#
+# Note: Either specify `email` or `clobbered_email`. If both are specified `clobbered_email` is used.
+#
+clobbered_email: "&#104;&#x65;&#108;&#108;&#x6F;&#64;&#x77;&#x65;&#98;&#x6A;&#101;&#x64;&#97;&#x2E;&#x63;&#111;&#x6D;"
+
+# You could also specify a clobbered version of your name to be used in the link to email you
+#
+# If unspecified only the clobbered email will be used in the link
+clobbered_name: "&#65;&#x6C;&#97;&#x6E;&#32&#68;&#x6F;&#101;"
+
 location: Madurai, India
 # website: blog.webjeda.com #do not add http://
 # linkedin: alandoe
