@@ -7,7 +7,7 @@ projects:
   - project:
     title: "Seminar Hall booking"
     link: https://github.com/sivaraam/Seminar
-    tagline: "A web application to book seminar halls (learning project)"
+    tagline: "A web application to book seminar halls (learning project)."
   - project:
     title: "தமிழ் அகராதி (Tamil Dictionary) - Andoid app"
     link: https://github.com/sivaraam/TamilDictApp
@@ -16,4 +16,4 @@ projects:
   - project:
     title: lxconf
     link: https://github.com/sivaraam/lxconf
-    tagline: "A few hacky scripts to automate setting up of a new computer"
+    tagline: "A few hacky scripts to automate setting up of a new computer."
