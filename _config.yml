@@ -13,7 +13,8 @@ name: Kaartic Sivaraam
 pic: Lotus_flower.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 pic-info: By Hong Zhang (jennyzhh2008) [CC0 or CC0], via Wikimedia Commons
 summary: 'I’m a person seeking to work with awesome people. When it comes to learning,
-I consider myself a <em>semi-autodidact</em>. I have a passion towards design and love to
+I consider myself a <em>semi-<abbr title="a self-taught person">autodidact</abbr></em>.
+I have a passion towards design and love to
 make simple and intuitive interfaces. I’m also passionate about programming and love
 to craft eloquent programs. I love to explore the behind the scenes working of things.'
 
