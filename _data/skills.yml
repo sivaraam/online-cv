@@ -11,6 +11,9 @@
   name: Node.js
   level: 45%
 - skill:
+  name: Ruby
+  level: 20%
+- skill:
   name: C
   level: 80%
 - skill:
@@ -19,9 +22,6 @@
 - skill:
   name: Java
   level: 45%
-- skill:
-  name: Ruby
-  level: 20%
 - skill:
   name: Git
   level: 50%
