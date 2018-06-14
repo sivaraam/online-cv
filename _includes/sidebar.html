@@ -29,12 +29,12 @@
                <i class="fas fa-envelope"></i>
                {% if site.clobbered_email %}
                   {% if site.clobbered_name %}
-                  <a href="&#x6D;&#97;&#105;l&#x74;&#111;:{{site.clobbered_name}}&#32;&#x3C;{{site.clobbered_email}}&#62;">{{site.clobbered_email}}</a>
+                  <a href="&#x6D;&#97;&#105;l&#x74;&#111;:{{site.clobbered_name}}&#32;&#x3C;{{site.clobbered_email}}&#62;" rel="author">{{site.clobbered_email}}</a>
                   {% else %}
-                  <a href="&#x6D;&#97;&#105;l&#x74;&#111;:{{site.clobbered_email}}">{{site.clobbered_email}}</a>
+                  <a href="&#x6D;&#97;&#105;l&#x74;&#111;:{{site.clobbered_email}}" rel="author">{{site.clobbered_email}}</a>
                   {% endif %}
                {% elsif site.email %}
-               <a href="mailto:{{site.name}} {{site.email}}">{{site.email}}</a>
+               <a href="mailto:{{site.name}} {{site.email}}" rel="author">{{site.email}}</a>
                {% endif %}
            </li>
            {% endif %}
@@ -42,7 +42,7 @@
            {% if site.phone %}
            <li class="phone">
                <i class="fas fa-phone"></i>
-               <a href="tel:{{site.phone}}">{{site.phone}}</a>
+               <a href="tel:{{site.phone}}" rel="author">{{site.phone}}</a>
            </li>
            {% endif %}
 
@@ -56,7 +56,7 @@
            {% if site.website %}
            <li class="website">
                <i class="fas fa-globe"></i>
-               <a href="http://{{site.website}}">{{site.website}}</a>
+               <a href="http://{{site.website}}" rel="external author">{{site.website}}</a>
            </li>
            {% endif %}
 
@@ -65,42 +65,42 @@
            {% if site.linkedin %}
            <li class="linkedin">
                <i class="fab fa-linkedin"></i>
-               <a href="https://linkedin.com/in/{{site.linkedin}}">{{site.linkedin}}</a>
+               <a href="https://linkedin.com/in/{{site.linkedin}}" rel="external">{{site.linkedin}}</a>
            </li>
            {% endif %}
 
            {% if site.github %}
            <li class="github">
                <i class="fab fa-github"></i>
-               <a href="https://github.com/{{site.github}}">{{site.github}}</a>
+               <a href="https://github.com/{{site.github}}" rel="external">{{site.github}}</a>
            </li>
            {% endif %}
 
            {% if site.gitlab %}
            <li class="gitlab">
                <i class="fab fa-gitlab"></i>
-               <a href="https://gitlab.com/{{site.gitlab}}">{{site.gitlab}}</a>
+               <a href="https://gitlab.com/{{site.gitlab}}" rel="external">{{site.gitlab}}</a>
            </li>
            {% endif %}
 
            {% if site.medium %}
            <li class="medium">
                <i class="fab fa-medium"></i>
-               <a href="https://medium.com/{{site.medium}}">{{site.medium}}</a>
+               <a href="https://medium.com/{{site.medium}}" rel="external">{{site.medium}}</a>
            </li>
            {% endif %}
 
            {% if site.wikipedia-en %}
            <li class="wikipedia-en">
                <i class="fab fa-wikipedia-w"></i>
-               <a href="https://en.wikipedia.org/wiki/User:{{site.wikipedia-en}}">User:{{site.wikipedia-en}}</a>
+               <a href="https://en.wikipedia.org/wiki/User:{{site.wikipedia-en}}" rel="external">User:{{site.wikipedia-en}}</a>
            </li>
            {% endif %}
 
            {% if site.twitter %}
            <li class="twitter">
                <i class="fab fa-twitter"></i>
-               <a href="https://twitter.com/{{site.twitter}}">{{site.twitter}}</a>
+               <a href="https://twitter.com/{{site.twitter}}" rel="external author">{{site.twitter}}</a>
            </li>
            {% endif %}
 
