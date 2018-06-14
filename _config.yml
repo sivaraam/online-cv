@@ -10,7 +10,7 @@ theme_skin: mdc # blue turquoise green berry orange ceramic mdc
 # Profile information
 name: Kaartic Sivaraam
 # tagline: Full Stack Developer
-pic: Lotus_flower.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+# pic: Lotus_flower.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 pic-info: By Hong Zhang (jennyzhh2008) [CC0 or CC0], via Wikimedia Commons
 summary: 'A person seeking to work with awesome people.
 A few things that best describe him:
