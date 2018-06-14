@@ -2,25 +2,30 @@
 layout: compress
 ---
 <!DOCTYPE html>
-<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
-<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
-<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
 {% include head.html %}
 
 <body>
+    <div class="resume-doc-banner">
+        <a href="{{site.baseurl}}/assets/kaartic-resume.pdf">
+            <i class="fas fa-file-pdf"></i>
+            Download a PDF version of this Résumé.
+        </a>
+    </div>
     <div class="wrapper">
         {% include sidebar.html %}
-        
+
         <div class="main-wrapper">
-           
+
            {{content}}
-            
+
         </div><!--//main-body-->
     </div>
- 
+
 {% include footer.html %}
- 
+
 {% include scripts.html %}
 </body>
-</html> 
-
+</html>
