@@ -4,7 +4,7 @@ body {
     color: $text-color-secondary;
     background: $smoky-white;
     font-size: 14px;
-    padding: 30px;
+    // padding: 30px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -22,6 +22,7 @@ a {
     &:focus {
         text-decoration: none;
     }
+    text-decoration: underline;
 }
 
 p {
@@ -194,7 +195,9 @@ p {
     .section {
         margin-bottom: 60px;
     }
-
+    .skills-section {
+        padding-top: 100px;
+    }
     .experiences-section, .educations-section, .contributions-section {
         .item {
             margin-bottom: 30px;
