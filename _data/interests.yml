@@ -6,7 +6,7 @@
   link: https://phabricator.wikimedia.org/p/Kaartic/
 - interest:
   item: "
-  <a href=\"https://en.wikipedia.org/wiki/Special:Contributions/Kaartic\">
+  <a href=\"https://en.wikipedia.org/wiki/Special:Contributions/Kaartic\" rel=\"external\">
     Editing Wikipedia
   </a>
   <span style=\"color: rgba(256, 256, 256, 0.7);\">
@@ -25,7 +25,7 @@
   item: "Reading books
   <span style=\"color: rgba(256, 256, 256, 0.7);\">
   (
-    <a href=\"https://www.amazon.in/hz/wishlist/ls/1NXBPDNCVJTUZ\" target=\"_blank\">
+      <a href=\"https://www.amazon.in/hz/wishlist/ls/1NXBPDNCVJTUZ\" rel=\"external\">
       Wishlist
     </a>
   )

@@ -11,7 +11,7 @@ projects:
   - project:
     title: "தமிழ் அகராதி (Tamil Dictionary) - Andoid app"
     link: https://github.com/sivaraam/TamilDictApp
-    tagline: "<a href=\"https://github.com/itkach/aard2-android\" target=\"_blank\">Aard 2 for Android</a>
+    tagline: "<a href=\"https://github.com/itkach/aard2-android\" rel=\"external\">Aard 2 for Android</a>
     customised as a Tamil dictionary."
   - project:
     title: lxconf
