@@ -1,0 +1,46 @@
+#! /bin/sh
+#
+# Script to generate the PDF version of Resume.
+
+does_it_exist () {
+	if (which $1 >/dev/null 2>/dev/null)
+	then
+		return 0
+	else
+		return 1
+	fi
+}
+
+if !(does_it_exist jekyll)
+then
+	echo 'Jekyll is needed to generate the site'
+	echo 'Visit https://jekyllrb.com/ for instructions about installing Jekyll'
+	exit 1
+fi
+
+if !(does_it_exist wkhtmltopdf)
+then
+	echo 'wkhtmltopdf is required to generate the PDF from the site'
+	echo 'Visit https://wkhtmltopdf.org/downloads.html for instructions'
+	echo 'about downloading the binary'
+	exit 1
+fi
+
+echo 'Generating the site ..'
+if (jekyll build >/dev/null)
+then
+	echo 'Successfully generated the site.'
+
+	echo 'Generating the PDF file ..'
+	if (wkhtmltopdf --no-outline --margin-bottom 20mm --margin-top 10mm --minimum-font-size 14 _site/index.html resume.pdf >/dev/null)
+	then
+		echo 'Successfully generate the PDF file.'
+	else
+		echo 'wkhtmltopdf returned failure code.'
+		echo "It's fine if it failed with an 'UnknownNetworkError' as it shouldn't affect the generated file."
+		echo "If it's something let me know. You know how to contact me ;-)"
+	fi
+else
+	echo 'FATAL: Generating the site failed!'
+fi
+
