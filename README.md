@@ -14,8 +14,17 @@ The steps to generate the PDF are as follows:
 1. Generate the Jekyll site: `jekyll build`
 1. Generate the PDF file using wkhtmltopdf. Typical command to be executed from
    the root directory of the project:
-   `wkhtmltopdf --margin-bottom 20mm --margin-top 10mm --minimum-font-size 14 _site/index.html resume.pdf`
+   `wkhtmltopdf --no-outline --margin-bottom 20mm --margin-top 10mm --minimum-font-size 14 _site/index.html resume.pdf`
    This should have generated the PDF version of the site.
 
-For more information about building a resume using the Jekyll themes, see
-https://github.com/sharu725/online-cv
+### Note about not generating the PDF outline
+The way in which the page is currently laid out (the sidebar in¬ particular) tricks
+wkhtmltopdf into generating the outline with an incorrect nesting. So, it's better
+to generate the PDF without the outline for now.
+
+Typically, this a TODO seen from two perspectives:
+
+1. Helping wkhtmltopdf to fix the issues with sidebars (if there is one ;-)
+2. Changing the layout of the site to avoid this issue
+
+It would be nice to achieve the former.
