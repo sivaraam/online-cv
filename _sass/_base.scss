@@ -200,7 +200,7 @@ p {
         margin-bottom: 60px;
     }
 
-    .experiences-section, .educations-section {
+    .experiences-section, .educations-section, .contributions-section {
         .item {
             margin-bottom: 30px;
         }
@@ -210,7 +210,12 @@ p {
         overflow: hidden;
         margin-bottom: 2px;
     }
-    .job-title, .degree, .certification-title {
+    .separator-dot {
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 30%;
+    }
+    .job-title, .degree, .project, .certification-title {
         color: $text-color;
         font-size: 16px;
         margin-top: 0;

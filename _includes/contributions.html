@@ -1,0 +1,47 @@
+{% if site.data.contributions %}
+<section class="section contributions-section">
+  <h2 class="section-title"><i class="fas fa-code"></i>Contributions</h2>
+
+{% for contribution in site.data.contributions %}
+  <div class="item">
+
+    <div class="meta">
+
+      <div class="upper-row">
+        <h3 class="project">
+            {{ contribution.project }}
+
+            {% if contribution.project_link or contribution.link %}
+            -
+            {% endif %}
+
+            {% if contribution.project_link %}
+            <a href="{{ contribution.project_link }}">
+                project
+            </a>
+            {% endif %}
+
+            {% if contribution.project_link and contribution.link %}
+            <div class="separator-dot">
+                <i class="fas fa-circle"></i>
+            </div>
+            {% endif %}
+
+            {% if contribution.link %}
+            <a href="{{ contribution.link }}">
+                contributions
+            </a>
+            {% endif %}
+        </h3>
+
+    {% if contribution.details %}
+    <div class="details">
+      <p>{{ contribution.details }}</p>
+    </div><!--//details-->
+    {% endif %}
+
+  </div><!--//item-->
+{% endfor %}
+
+</section><!--//section-->
+{% endif %}
