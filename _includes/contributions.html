@@ -9,16 +9,23 @@
 
       <div class="upper-row">
         <h3 class="project">
-            {{ contribution.project }} -
+            {{ contribution.project }}
+
+            {% if contribution.project_link or contribution.link %}
+            -
+            {% endif %}
 
             {% if contribution.project_link %}
             <a href="{{ contribution.project_link }}">
                 project
             </a>
             {% endif %}
+
+            {% if contribution.project_link and contribution.link %}
             <div class="separator-dot">
                 <i class="fas fa-circle"></i>
             </div>
+            {% endif %}
 
             {% if contribution.link %}
             <a href="{{ contribution.link }}">
