@@ -32,6 +32,20 @@ then
 	echo 'Successfully generated the site.'
 
 	echo 'Generating the PDF file ..'
+
+	# We request for '--no-outline' as current layout of the page (the sidebar, in particular)
+	# tricks `wkhtmltopdf` into generating the outline with an incorrect nesting.
+	#
+	# So, it's better to generate the PDF without the outline for now.
+	#
+	# FIXME:
+	#
+	# Either,
+	# 	1. Help wkhtmltopdf to fix the issues with sidebars (if there is one ;-)
+	# 	2. Change the layout of the site to avoid this issue
+	#
+	# It would be nice to achieve the former.
+	#
 	if (wkhtmltopdf --no-outline --margin-bottom 20mm --margin-top 10mm --minimum-font-size 14 _site/index.html resume.pdf >/dev/null)
 	then
 		echo 'Successfully generate the PDF file.'

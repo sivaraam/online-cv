@@ -1,6 +1,9 @@
 /*
  * Turn-off the padding, if any, given for the body
- * as wkhtmltopdf itself gives padding around the page
+ * as wkhtmltopdf itself gives padding around the page.
+ *
+ * Also, the padding has an unfortunate grey color which
+ * is one of the main reasons.
  */
 body {
 	padding: 0;
