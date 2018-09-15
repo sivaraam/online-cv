@@ -9,11 +9,11 @@ projects:
     link: https://github.com/sivaraam/Seminar
     tagline: "A web application to book seminar halls (learning project)."
   - project:
-    title: "தமிழ் அகராதி (Tamil Dictionary) - Andoid app"
+    title: "தமிழ் அகராதி (Tamil Dictionary) - Android app"
     link: https://github.com/sivaraam/TamilDictApp
     tagline: "<a href=\"https://github.com/itkach/aard2-android\" rel=\"external\">Aard 2 for Android</a>
-    customised as a Tamil dictionary."
+    customized as a Tamil dictionary."
   - project:
     title: lxconf
     link: https://github.com/sivaraam/lxconf
-    tagline: "A few hacky scripts to automate setting up of a new computer."
+    tagline: "A few hacky scripts to automate the setting up of a new computer."
