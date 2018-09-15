@@ -1,15 +1,32 @@
+/*
+ * Turn-off the padding, if any, given for the body
+ * as wkhtmltopdf itself gives padding around the page
+ */
 body {
 	padding: 0;
 }
 
+/*
+ * Links are always underlined in wkhtmltopdf. So,
+ * ask for no decoration.
+ */
 a {
 	text-decoration: none;
 }
 
+/*
+ * Extra padding used to bring the section to the
+ * next page of the PDF generated using wkhtmltopdf.
+ */
 .main-wrapper .contributions-section {
 	padding-top: 50px;
 }
 
+/*
+ * Reduce the padding for the top and bottom of the footer
+ * as the original padding (given by the site) seems to be
+ * resulting in the footer splitting across pages.
+ */
 .footer {
 	padding-top: 15px;
 	padding-bottom: 15px;
