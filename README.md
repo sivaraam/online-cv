@@ -8,3 +8,13 @@ that suits the tastes of @sivaraam was added and used to create his resume.
 
 For more information about building a resume using the Jekyll themes, see
 https://github.com/sharu725/online-cv
+
+## PDF Generation
+A PDF version of the resume could be created using [wkhtmltopdf](https://wkhtmltopdf.org/).
+The steps to generate the PDF are as follows:
+
+```
+online-cv $ ./generate-pdf
+```
+
+That's it. It should do the trick.
