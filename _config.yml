@@ -1,7 +1,13 @@
 # Site Settings
 title: Kaartic's Résumé
 url: 'https://sivaraam.github.io/'
-baseurl: '/online-cv' #change it according to your repository name
+
+# Note: a leading slash in the baseurl makes it impossible for
+# wkhtmltopdf to correctly locate the resource.
+# This is possibly because the leading '/' doesn't have the same
+# meaning of the root as in HTML.
+baseurl: '.'
+
 about: False # set to False or comment line if you want to remove the "How to use?" in the sidebar
 
 # Style will be applied only after restarting the build or serve. Just choose one of the options.

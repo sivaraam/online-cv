@@ -8,4 +8,15 @@
 */
 @import "mixins";
 @import "base";
-@import "responsive";
+@import "wkhtmltopdf-tweaks";
+
+/*
+ * Responsiveness in the site used by wkhtmltopdf to generate the PDF
+ * results in the PDF always being generated for the mobile version
+ * of the page. That occupies a lot of space and makes the resume too
+ * long.
+ *
+ * So, turn off responsiveness to generate a PDF of the desktop version of
+ * the site.
+ */
+// @import "responsive";
