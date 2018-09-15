@@ -20,6 +20,9 @@ a {
 /*
  * Extra padding used to bring the section to the
  * next page of the PDF generated using wkhtmltopdf.
+ *
+ * FIXME: Isn't there a better way for this ??
+ * Identify a better way.
  */
 .main-wrapper .contributions-section {
 	padding-top: 50px;
@@ -38,7 +41,10 @@ a {
 /*
  * The font-awesome icons used for the sections are partially
  * cut-off for some unknown reason. So, work around it by
- * hiding the icons used before main sections
+ * hiding the icons used before main sections.
+ *
+ * FIXME: Find why icons are being cut-off and fix it. The resume
+ * looks a little less catchy without them.
  */
 .section-icon {
 	display: none;
