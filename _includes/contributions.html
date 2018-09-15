@@ -1,6 +1,11 @@
 {% if site.data.contributions %}
 <section class="section contributions-section">
-  <h2 class="section-title"><i class="fas fa-code"></i>Contributions</h2>
+  <h2 class="section-title">
+      <span class="section-icon">
+          <i class="fas fa-code"></i>
+      </span>
+      Contributions
+  </h2>
   <div class="contributions-section-desc">
       A few notable contributions to open-source projects.
   </div>
@@ -25,9 +30,9 @@
             {% endif %}
 
             {% if contribution.project_link and contribution.link %}
-            <div class="separator-dot">
-                <i class="fas fa-circle"></i>
-            </div>
+            <span class="separator-dot">
+                &middot;
+            </span>
             {% endif %}
 
             {% if contribution.link %}
