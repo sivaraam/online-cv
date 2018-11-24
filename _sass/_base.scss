@@ -19,9 +19,10 @@ a {
         text-decoration: underline;
         color: darken($theme-color, 30%);
     }
-    &:focus {
-        text-decoration: none;
+    &:visited {
+        color: #c81fda;
     }
+    text-decoration: underline;
 }
 
 p {
@@ -54,6 +55,9 @@ p {
     min-height: 800px;
     color: #fff;
     a {
+        &:visited {
+		color: #ccc;
+	}
         color: #fff;
     }
     .profile-container {
