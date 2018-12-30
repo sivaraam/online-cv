@@ -22,7 +22,11 @@ if !(does_it_exist wkhtmltopdf)
 then
 	echo 'wkhtmltopdf is required to generate the PDF from the site'
 	echo 'Visit https://wkhtmltopdf.org/downloads.html for instructions'
-	echo 'about downloading the binary'
+	echo 'about downloading the binary.'
+	echo "Note: There seems to be issues with 'wkhtmltopdf' installed via the package"
+	echo "manager of some distributions which seems to use an unpatched version of Qt."
+	echo "As a consequence the PDF is not generated as expected. So, it's better to use"
+	echo "the package obtained from the website which seems to be using a patched version of Qt."
 	exit 1
 fi
 
