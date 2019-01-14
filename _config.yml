@@ -1,5 +1,5 @@
 # Site Settings
-title: Kaartic's Résumé
+title: Kaartic Sivaraam's Résumé
 url: 'https://sivaraam.github.io/'
 
 # Note: a leading slash in the baseurl makes it impossible for
@@ -59,7 +59,7 @@ clobbered_email: "&#104;&#x65;&#108;&#108;&#x6F;&#64;&#x77;&#x65;&#98;&#x6A;&#10
 clobbered_email: "&#107;&#97;&#x61;&#x72;&#x74;&#x69;&#99;&#x2E;&#x73;&#105;&#x76;&#x61;&#x72;&#97;&#97;&#109;&#64;&#103;&#109;&#x61;&#x69;&#x6C;&#x2E;&#x63;o&#x6D;"
 
 location: Madurai, India
-# website: blog.webjeda.com #do not add http://
+website: kaartics.wordpress.com #do not add http://
 # linkedin: alandoe
 github: sivaraam
 gitlab: sivaraam
