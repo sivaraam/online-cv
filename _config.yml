@@ -1,5 +1,5 @@
 # Site Settings
-title: Kaartic's Résumé
+title: Kaartic Sivaraam's Résumé
 url: 'https://sivaraam.github.io/'
 baseurl: '/online-cv' #change it according to your repository name
 about: False # set to False or comment line if you want to remove the "How to use?" in the sidebar
