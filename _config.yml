@@ -53,12 +53,12 @@ description: 'A developer seeking to work with awesome people. Passionate about 
 #
 # Note: Either specify `email` or `clobbered_email`. If both are specified `clobbered_email` is used.
 #
-clobbered_email: "&#104;&#x65;&#108;&#108;&#x6F;&#64;&#x77;&#x65;&#98;&#x6A;&#101;&#x64;&#97;&#x2E;&#x63;&#111;&#x6D;"
+clobbered_email: "&#107;&#97;&#x61;&#x72;&#x74;&#x69;&#99;&#x2E;&#x73;&#105;&#x76;&#x61;&#x72;&#97;&#97;&#109;&#64;&#103;&#109;&#x61;&#x69;&#x6C;&#x2E;&#x63;o&#x6D;"
 
-# You could also specify a clobbered version of your name to be used in the link to email you
+# You could also specify a (clobbered version of) your name to be used in the link to email you
 #
 # If unspecified only the clobbered email will be used in the link
-clobbered_email: "&#107;&#97;&#x61;&#x72;&#x74;&#x69;&#99;&#x2E;&#x73;&#105;&#x76;&#x61;&#x72;&#97;&#97;&#109;&#64;&#103;&#109;&#x61;&#x69;&#x6C;&#x2E;&#x63;o&#x6D;"
+clobbered_name: Kaartic Sivaraam
 
 location: Madurai, India
 website: kaartics.wordpress.com #do not add http://
