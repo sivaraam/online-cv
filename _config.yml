@@ -30,6 +30,16 @@ A few things that best describe me:
   </ul>
 '
 
+# A description which is different from the summary
+# It's used to create a little description of the site
+# that would show up when sharing the links to services
+# Twitter.
+#
+# It should just be plain text.
+description: 'Summarise your career here lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient
+montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.'
+
 # Sidebar links
 # email: kaartic.sivaraam@gmail.com
 
