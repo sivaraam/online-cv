@@ -272,13 +272,18 @@ p {
 
 .skillset {
     .item {
-        margin-bottom: 15px;
-        overflow: hidden;
+        display: inline-block;
+        margin: 15px;
+        padding: 15px;
+        border-radius: 12px;
+        text-align: center;
+        border: 1rem solid lighten($theme-color, 20%);
+        vertical-align: middle;
     }
     .level-title {
         font-size: 16px;
+        text-align: center;
         margin-top: 0;
-        margin-bottom: 12px;
     }
     .level-bar {
         height: 12px;
