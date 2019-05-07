@@ -16,7 +16,7 @@ projects:
   - project:
     title: "தமிழ் அகராதி (Tamil Dictionary) - Android app"
     link: https://github.com/sivaraam/TamilDictApp
-    tagline: "<a href=\"https://github.com/itkach/aard2-android\" rel=\"external\">Aard 2 for Android</a>
+    tagline: "The <a href=\"https://github.com/itkach/aard2-android\" rel=\"external\">Aard 2 for Android</a>
     customized as a Tamil dictionary."
     technologies: Android, Gradle, SLOB
   - project:
