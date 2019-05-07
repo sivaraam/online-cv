@@ -27,6 +27,13 @@
     </div><!--//details-->
     {% endif %}
 
+    {% if experience.skills %}
+    <div class="experience-skills">
+      <h4 class="job-skills">Skills Developed</h4>
+      <p>{{ experience.skills }}</p>
+    </div>
+    {% endif %}
+
   </div><!--//item-->
 {% endfor %}
 
