@@ -2,7 +2,11 @@
   role: Project Engineer
   time: July 2018 - Present
   company: "e-con Systems India Private Limited"
-  details: "e-con Systems is an Embedded Systems company mostly focused on
-  developing camera products. I'm currently a member of the Camera Team doing
-  Research and Development work for the development of new platform
-  camera products."
+  details: "I'm currently a member of the Camera Team doing R&D work for the
+  development of new embedded platform camera products. I explore how
+  to port the different Camera drivers to various new platforms which are
+  mostly based on the Linux kernel. So, I typically hack around developing V4L2
+  based Linux kernel drivers. I also get to work on other awesome things such
+  as OpenCV, CUDA, HDR algorithms."
+  skills: "Linux, Linux kernel driver, C, OpenCV, Git, Bash, gdb, I2C,
+  Nvidia Jetson, CUDA, HDR, Jira, Confluence"
