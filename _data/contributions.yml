@@ -1,15 +1,15 @@
 - contribution:
-  project: Python
-  project_link: https://www.python.org/
-  link: https://bugs.python.org/issue28181
-  details: "My very first open-source project contribution. Though a very trivial
-  one, I find it memorable."
-- contribution:
   project: Git
   project_link: https://git-scm.com/
   link: https://github.com/git/git/search?q=Kaartic+Sivaraam&type=Commits
   details: "One of the open-source projects to which I made my initial
   contributions. I find the community to be a very diverse and knowledgeable one."
+- contribution:
+  project: Wikimedia Commons Android App
+  project_link: https://github.com/commons-app/apps-android-commons/
+  link: https://github.com/commons-app/apps-android-commons/search?q=sivaraam&type=Issues
+  details: "A project to which I mostly do non-code contributions. This includes filing
+  bugs, entering in discussions etc."
 - contribution:
   project: Wikipedia Android App
   project_link: https://github.com/wikimedia/apps-android-wikipedia
@@ -17,8 +17,8 @@
   details: "A few volunteer contributions that I managed to do during my free time. I'm
   mostly just filing bugs I find when I use the app, these days."
 - contribution:
-  project: Wikimedia Commons Android App
-  project_link: https://github.com/commons-app/apps-android-commons/
-  link: https://github.com/commons-app/apps-android-commons/search?q=sivaraam&type=Issues
-  details: "A project to which I mostly do non-code contributions. This includes filing
-  bugs, entering in discussions etc."
+  project: Python
+  project_link: https://www.python.org/
+  link: https://bugs.python.org/issue28181
+  details: "My very first open-source project contribution. Though a very trivial
+  one, I find it memorable."
