@@ -215,7 +215,7 @@ p {
         overflow: hidden;
         margin-bottom: 2px;
     }
-    .job-title, .degree, .project, .certification-title {
+    .job-title, .degree, .project, .project-title, .certification-title {
         color: $text-color;
         font-size: 20px;
         margin-top: 0;
@@ -238,8 +238,6 @@ p {
     }
 
     .project-title {
-        font-size: 18px;
-        font-weight: 400;
         margin-top: 0;
         margin-bottom: 5px;
     }
