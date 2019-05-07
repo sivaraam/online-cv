@@ -6,16 +6,21 @@ projects:
     custom offline packages of Wikipedia articles. An attempt to solve
     the need of customized offline packages of articles for Wikipedia
     Android app's <a href=\"https://www.mediawiki.org/wiki/Wikimedia_Apps/Offline_support\" rel=\"external\">Offline Compilations</a> feature."
+    technologies: "Node.js, Stemmer, Express, JavaScript, mwoffliner, zim, PetScan,
+    Material Design, MCW, Sass, jQuery"
   - project:
     title: "Seminar Hall booking"
     link: https://github.com/sivaraam/Seminar
     tagline: "A web application to book seminar halls (learning project)."
+    technologies: Node.js, Sass, Material Design, Material Components for the web, jQuery UI
   - project:
     title: "தமிழ் அகராதி (Tamil Dictionary) - Android app"
     link: https://github.com/sivaraam/TamilDictApp
     tagline: "<a href=\"https://github.com/itkach/aard2-android\" rel=\"external\">Aard 2 for Android</a>
     customized as a Tamil dictionary."
+    technologies: Android, Gradle, SLOB
   - project:
     title: lxconf
     link: https://github.com/sivaraam/lxconf
     tagline: "A few hacky scripts to automate the setting up of a new computer."
+    technologies: Bash shell
