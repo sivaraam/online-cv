@@ -12,7 +12,7 @@ projects:
     title: "Seminar Hall booking"
     link: https://github.com/sivaraam/Seminar
     tagline: "A web application to book seminar halls (learning project)."
-    technologies: Node.js, Sass, Material Design, Material Components for the web, jQuery UI
+    technologies: Sass, Material Design, Material Components for the web, jQuery UI
   - project:
     title: "தமிழ் அகராதி (Tamil Dictionary) - Android app"
     link: https://github.com/sivaraam/TamilDictApp
