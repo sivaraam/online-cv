@@ -1,9 +1,9 @@
 /* ======= Base ======= */
 body {
     font-family: 'Roboto', sans-serif;
-    color: $text-color-secondary;
+    color: $text-color;
     background: $smoky-white;
-    font-size: 14px;
+    font-size: 16px;
     padding: 30px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -104,6 +104,7 @@ p {
             &:last-child {
                 margin-bottom: 0;
             }
+            font-size: 14px;
         }
         // .email {
         //     *[class^="fa-"], *[class*=" fa-"] {
@@ -116,13 +117,13 @@ p {
     }
     .container-block-title {
         text-transform: uppercase;
-        font-size: 16px;
+        font-size: 20px;
         font-weight: 700;
         margin-top: 0;
         margin-bottom: 15px;
     }
     .degree, .certification-title {
-        font-size: 14px;
+        font-size: 18px;
         margin-top: 0;
         margin-bottom: 5px;
     }
@@ -178,7 +179,7 @@ p {
     padding-right: 340px;
     .section-title {
         text-transform: uppercase;
-        font-size: 20px;
+        font-size: 22px;
         font-weight: 500;
         color: darken($theme-color, 15%);
         position: relative;
@@ -194,7 +195,7 @@ p {
             // background: darken($theme-color, 15%);
             vertical-align: text-bottom;
             padding-top: 8px;
-            font-size: 16px;
+            font-size: 18px;
             position: relative;
             top: -2px;
         }
@@ -219,11 +220,15 @@ p {
     }
     .job-title, .degree, .project, .certification-title {
         color: $text-color;
-        font-size: 16px;
+        font-size: 20px;
         margin-top: 0;
         margin-bottom: 0;
         font-weight: 500;
     }
+    .job-skills {
+       font-size: 16px;
+    }
+
     .time {
         position: absolute;
         right: 0;
@@ -236,7 +241,7 @@ p {
     }
 
     .project-title {
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 400;
         margin-top: 0;
         margin-bottom: 5px;
@@ -276,7 +281,7 @@ p {
         overflow: hidden;
     }
     .level-title {
-        font-size: 14px;
+        font-size: 16px;
         margin-top: 0;
         margin-bottom: 12px;
     }
