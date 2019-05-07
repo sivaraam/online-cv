@@ -17,10 +17,10 @@
   {% for project in site.data.projects.projects %}
     <div class="item">
 
-      <span class="project-title"><a href="{{ project.link }}" rel="external">{{ project.title }}</a></span>
+      <h3 class="project-title"><a href="{{ project.link }}" rel="external">{{ project.title }}</a></h3>
 
       {% if project.tagline %}
-      - <span class="project-tagline">{{ project.tagline }}</span>
+      <span class="project-tagline">{{ project.tagline }}</span>
       {% endif %}
 
       {% if project.technologies %}
