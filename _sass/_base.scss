@@ -277,7 +277,7 @@ p {
         padding: 15px;
         border-radius: 12px;
         text-align: center;
-        border: 1rem solid lighten($theme-color, 20%);
+        background-color: lighten($theme-color, 35%);
         vertical-align: middle;
     }
     .level-title {
