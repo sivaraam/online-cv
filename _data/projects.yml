@@ -20,7 +20,7 @@ projects:
     customized as a Tamil dictionary."
     technologies: Android, Gradle, SLOB
   - project:
-    title: lxconf
-    link: https://github.com/sivaraam/lxconf
-    tagline: "A few hacky scripts to automate the setting up of a new computer."
-    technologies: Bash shell
+    title: "Student Activity Meter - Android app"
+    link: https://github.com/sivaraam/StudentActivityMeter
+    tagline: "An Android app developed as a prototype for a project, which is done based on one of United Nation's Sustainable Development Goals."
+    technologies: Android, Room, Gradle
