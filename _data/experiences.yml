@@ -7,7 +7,7 @@
   is working on a configuration-driven client framework, that provides
   an underlying structure to build an interactive user interface for
   applications. I also get to explore/research new things along the way."
-  skills: "Java, SQL, Connection pools, Maven, Gradle, Ant, Git"
+  skills: "Java, SQL, Connection pools, JUnit, Maven, Gradle, Ant, Git"
 - experience:
   role: Project Engineer
   time: July 2018 - June 2019
