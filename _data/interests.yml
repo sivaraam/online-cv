@@ -5,16 +5,6 @@
   item: "Volunteering for the Wikimedia Foundation"
   link: https://phabricator.wikimedia.org/p/Kaartic/
 - interest:
-  item: "
-  <a href=\"https://en.wikipedia.org/wiki/Special:Contributions/Kaartic\" rel=\"external\">
-    Editing Wikipedia
-  </a>
-  <span style=\"color: rgba(256, 256, 256, 0.7);\">
-    (greatly improves researching skills!)
-  </span>
-  "
-  link:
-- interest:
   item: "Learning new things
   <span style=\"color: rgba(256, 256, 256, 0.7);\">
     (the autodidact's way)
