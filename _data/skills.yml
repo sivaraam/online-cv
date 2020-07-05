@@ -1,27 +1,28 @@
 - skill:
+  name: Java
+  level: 45%
+- skill:
+  name: C
+  level: 80%
+- skill:
+  name: Android
+  level: 25%
+- skill:
+  name: Shell scripting
+  level: 50%
+- skill:
   name: HTML5 & CSS
   level: 55%
 - skill:
   name: JavaScript
   level: 40%
 - skill:
-  name: Node.js
-  level: 45%
-- skill:
-  name: C
-  level: 80%
-- skill:
-  name: C++
-  level: 30%
-- skill:
-  name: Java
-  level: 45%
-- skill:
-  name: Android
-  level: 25%
-- skill:
   name: Git
   level: 50%
 - skill:
-  name: Shell scripting
-  level: 50%
+  name: Node.js
+  level: 45%
+- skill:
+  name: C++
+  level: 30%
+
