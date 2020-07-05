@@ -1,6 +1,16 @@
 - experience:
+  role: Member Technical Staff
+  time: July 2019 - Present
+  company: "Zoho Corporation"
+  details: "I work in a team where we develop, improvise a sophisticated
+  framework for database access and other fundamental services. My role
+  is working on a configuration-driven client framework, that provides
+  an underlying structure to build an interactive user interface for
+  applications. I also get to explore/research new things along the way."
+  skills: "Java, SQL, Connection pools, Maven, Gradle, Ant, Git"
+- experience:
   role: Project Engineer
-  time: July 2018 - Present
+  time: July 2018 - June 2019
   company: "e-con Systems India Private Limited"
   details: "I'm currently a member of the Camera Team doing R&D work for the
   development of new embedded platform camera products. I explore how
