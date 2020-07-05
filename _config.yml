@@ -88,4 +88,4 @@ compress_html: # - http://jch.penibelst.de/
   ignore:
     envs: development
 
-download_pdf: True
+# download_pdf: True
