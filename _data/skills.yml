@@ -2,17 +2,11 @@
   name: HTML5 & CSS
   level: 55%
 - skill:
-  name: Responsive website design
-  level: 30%
-- skill:
   name: JavaScript
   level: 40%
 - skill:
   name: Node.js
   level: 45%
-- skill:
-  name: Ruby
-  level: 20%
 - skill:
   name: C
   level: 80%
@@ -23,8 +17,11 @@
   name: Java
   level: 45%
 - skill:
+  name: Android
+  level: 25%
+- skill:
   name: Git
   level: 50%
 - skill:
   name: Shell scripting
-  level: 30%
+  level: 50%
