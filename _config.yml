@@ -87,3 +87,5 @@ compress_html: # - http://jch.penibelst.de/
   clippings: all
   ignore:
     envs: development
+
+download_pdf: True
