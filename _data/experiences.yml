@@ -9,6 +9,16 @@
   applications. I also get to explore/research new things along the way."
   skills: "Java, SQL, Connection pools, JUnit, Maven, Gradle, Ant, Git"
 - experience:
+  role: GSoC Mentor
+  time: Summer of 2020; Summer of 2021
+  company: Git
+  details: "I had the fortune of mentoring <abbr title=\"one official; one voluntary\">two
+  <a href=\"https://summerofcode.withgoogle.com/\">GSoC</a> students</abbr> during
+  the summer of 2020 and 2021. They were interesting and relishing experiences.
+  I was glad I could help them out during the summer. That's also when I
+  developed an empathy for all the hard work that every teacher puts into
+  educating all their students. Respect <i class=\"far fa-hand-peace\"></i>"
+- experience:
   role: Project Engineer
   time: July 2018 - June 2019
   company: "e-con Systems India Private Limited"
