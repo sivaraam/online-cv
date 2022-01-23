@@ -55,6 +55,7 @@ website: blog.webjeda.com #do not add http://
 linkedin: alandoe
 github: sharu725
 twitter: '@webjeda'
+dev: 'devteam' # Dev.to profile
 wikipedia-en: Jimmy Wales # without the 'User:' prefix
 
 # Update all the sections by editing the files inside _data folder.

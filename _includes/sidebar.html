@@ -90,6 +90,13 @@
            </li>
            {% endif %}
 
+           {% if site.dev %}
+           <li class="dev">
+               <i class="fab fa-dev"></i>
+               <a href="https://dev.to/{{site.dev}}" rel="external">{{site.dev}}</a>
+           </li>
+           {% endif %}
+
            {% if site.wikipedia-en %}
            <li class="wikipedia-en">
                <i class="fab fa-wikipedia-w"></i>
