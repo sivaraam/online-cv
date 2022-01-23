@@ -62,9 +62,10 @@ website: kaartics.wordpress.com #do not add http://
 linkedin: kaartic
 github: sivaraam
 # gitlab: sivaraam
-medium: '@sivaraam'
+# medium: '@sivaraam'
 wikipedia-en: Kaartic # without the 'User:' prefix
 twitter: '@kaartics'
+# dev: 'devteam' # Dev.to profile
 
 # Update all the sections by editing the files inside _data folder.
 
