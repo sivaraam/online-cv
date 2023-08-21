@@ -13,16 +13,15 @@ name: Kaartic Sivaraam
 # pic: Lotus_flower.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 pic-info: By Hong Zhang (jennyzhh2008) [CC0 or CC0], via Wikimedia Commons
 summary: 'I''m a developer seeking to work with awesome people.
+
+Innately curious about exploring things.
 A few things that best describe me:
   <ul>
     <li>
-      <em>Self-motivated and a Semi-<abbr title="a self-taught person">autodidact</abbr></em>.
+      <em>Self-motivated and an <abbr title="a self-taught person">autodidact</abbr></em>.
     </li>
     <li>
-      Passionate about programming. Loves to craft eloquent programs.
-    </li>
-    <li>
-      Loves to explore behind the scenes working of things.
+      Innately curious about exploring things.
     </li>
   </ul>
 '
@@ -89,4 +88,4 @@ compress_html: # - http://jch.penibelst.de/
   ignore:
     envs: development
 
-# download_pdf: True
+download_pdf: True

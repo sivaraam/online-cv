@@ -2,19 +2,31 @@
   role: Member Technical Staff
   time: July 2019 - Present
   company: "Zoho Corporation"
-  details: "I work in a team where we develop, improvise a sophisticated
-  framework for database access and other fundamental services. My role
-  is working on a configuration-driven client framework, that provides
-  an underlying structure to build an interactive user interface for
-  applications. I also get to explore/research new things along the way."
-  skills: "Java, Database, SQL, PostgreSQL, Connection pools, JUnit, Maven, Gradle, Ant, Git"
+  details: "At Zoho, I'm part of a platform team where we develop a web component framework
+  which is one of the many core frameworks on top of which the product teams develop their
+  applications. Our framework powers 25+ products.
+  <br />
+  Being a versatile team player in a small enthusiastic team, I handled multiple roles. Apart
+  from ideating and developing parts of the framework, I undertake R&D that's vital to the
+  framework. This includes evaluating how a connection pooling solution stands against the
+  existing one, rigorously assessing a SQL parsing library to ensure it meets framework needs
+  and leading the creation of of a memory-efficient configuration representation for the framework.
+  <br />
+  I closely collaborated with teams to facilitate seamless migration to the framework's latest
+  rewrite, proactively addressing any integration issues that arose.
+  <br />
+  Further, I assumed complete ownership of establishing the framework's documentation encompassing tool
+  selection, identification of an apt documentation system, and crafting of the content itself.
+  <br />
+  I provide guidance to a documentation team of two and an R&D team of one."
+  skills: "Java, HOCON, Database, SQL, PostgreSQL, Documentation, Connection pools, JUnit, Maven, Gradle, Ant, Git"
 - experience:
   role: GSoC Mentor
-  time: Summer of 2020; Summer of 2021
+  time: Summer of 2020, 2021 and 2023
   company: Git
-  details: "I had the fortune of mentoring <abbr title=\"one official; one voluntary\">two
+  details: "I had the fortune of mentoring <abbr title=\"two official; one voluntary\">three
   <a href=\"https://summerofcode.withgoogle.com/\">GSoC</a> students</abbr> during
-  the summer of 2020 and 2021. They were interesting and relishing experiences.
+  the summer of 2020, 2021 and 2023. They were interesting and relishing experiences.
   I was glad I could help them out during the summer. That's also when I
   developed an empathy for all the hard work that every teacher puts into
   educating all their students. Respect <i class=\"far fa-hand-peace\"></i>"
@@ -22,11 +34,10 @@
   role: Project Engineer
   time: July 2018 - June 2019
   company: "e-con Systems India Private Limited"
-  details: "I'm currently a member of the Camera Team doing R&D work for the
-  development of new embedded platform camera products. I explore how
-  to port the different Camera drivers to various new platforms which are
-  mostly based on the Linux kernel. So, I typically hack around developing V4L2
-  based Linux kernel drivers. I also get to work on other awesome things such
-  as OpenCV, CUDA, HDR algorithms."
+  details: "I worked as a member of the Platform Camera R&D team. I developed
+  new embedded platform camera products by porting different V4L2 based camera
+  drivers to new platforms based on the Linux kernel.
+  <br />
+  I explored awesome things such as OpenCV, CUDA and HDR algorithms along the way."
   skills: "Linux, Linux kernel driver, C, OpenCV, Git, Bash, gdb, I2C,
-  Nvidia Jetson, CUDA, HDR, Jira, Confluence"
+  nvidia Jetson, CUDA, HDR, Jira, Confluence"

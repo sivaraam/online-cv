@@ -1,22 +1,22 @@
 - contribution:
-  project: Wikimedia Commons App Website
-  project_link: https://github.com/commons-app/commons-app.github.io
-  link: https://github.com/commons-app/commons-app.github.io/commits?author=sivaraam
-  details: 'I am the maintainer of the website for the <a href="https://commons-app.github.io/">Wikimedia
+  project: Wikimedia Commons App
+  project_link: https://github.com/commons-app/apps-android-commons
+  link: https://github.com/commons-app/apps-android-commons/commits?author=sivaraam
+  details: 'I am the maintainer of the <a href="https://commons-app.github.io/">Wikimedia
   Commons Android app</a>, which is a community maintained Android app for the
   <a href="https://commons.wikimedia.org/wiki/Commons:Welcome">Wikimedia Commons</a> project.'
+- contribution:
+  project: Git Rev News
+  project_link: https://git.github.io/rev_news/rev_news/
+  link: https://github.com/git/git.github.io/commits?author=sivaraam
+  details: "I'm part of the Git Rev News team, that curates a newsletter about the Git community.
+  I'm gald to be handling one of the most loved section of the newsletter, the interviews."
 - contribution:
   project: Git
   project_link: https://git-scm.com/
   link: https://github.com/git/git/search?q=Kaartic+Sivaraam&type=Commits
   details: "One of the open-source projects to which I made my initial
   contributions. I find the community to be a very diverse and knowledgeable one."
-- contribution:
-  project: Wikimedia Commons Android App
-  project_link: https://github.com/commons-app/apps-android-commons/
-  link: https://github.com/commons-app/apps-android-commons/search?q=sivaraam&type=Issues
-  details: "A project to which I mostly do non-code contributions. This includes filing
-  bugs, discussing, brain storming etc."
 - contribution:
   project: Wikipedia Android App
   project_link: https://github.com/wikimedia/apps-android-wikipedia
