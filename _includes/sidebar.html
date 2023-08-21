@@ -104,6 +104,13 @@
            </li>
            {% endif %}
 
+           {% if site.mastodon %}
+           <li class="mastodon">
+               <i class="fab fa-mastodon"></i>
+               <a href="https://mastodon.social/{{site.mastodon}}" rel="external author">{{site.mastodon}}</a>
+           </li>
+           {% endif %}
+
            {% if site.twitter %}
            <li class="twitter">
                <i class="fab fa-twitter"></i>
