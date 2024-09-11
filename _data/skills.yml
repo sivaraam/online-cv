@@ -31,4 +31,6 @@
 - skill:
   name: C++
   level: 30%
-
+- skill:
+  name: Ruby
+  level: 30%
